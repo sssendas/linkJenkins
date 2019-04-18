@@ -1,77 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="38790" started-at="2019-04-17T19:56:15Z" finished-at="2019-04-17T19:56:54Z">
+  <suite name="TestSuite1" duration-ms="36495" started-at="2019-04-18T19:06:39Z" finished-at="2019-04-18T19:07:16Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="38790" started-at="2019-04-17T19:56:15Z" finished-at="2019-04-17T19:56:54Z">
+    <test name="firstTest" duration-ms="20509" started-at="2019-04-18T19:06:39Z" finished-at="2019-04-18T19:07:00Z">
       <class name="testNGClasses.TestPrimary">
-        <test-method status="PASS" signature="driverInitiator()[pri:0, instance:testNGClasses.TestPrimary@2f7a2457]" name="driverInitiator" is-config="true" duration-ms="2987" started-at="2019-04-17T19:56:15Z" finished-at="2019-04-17T19:56:18Z">
+        <test-method status="PASS" signature="driverInitiator()[pri:0, instance:testNGClasses.TestPrimary@17550481]" name="driverInitiator" is-config="true" duration-ms="9443" started-at="2019-04-18T19:06:39Z" finished-at="2019-04-18T19:06:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverInitiator -->
-        <test-method status="PASS" signature="driverInitiator()[pri:0, instance:testNGClasses.TestSecondary@566776ad]" name="driverInitiator" is-config="true" duration-ms="2442" started-at="2019-04-17T19:56:18Z" finished-at="2019-04-17T19:56:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverInitiator -->
-        <test-method status="PASS" signature="driverInitiator()[pri:0, instance:testNGClasses.TestTertiary@6108b2d7]" name="driverInitiator" is-config="true" duration-ms="2623" started-at="2019-04-17T19:56:21Z" finished-at="2019-04-17T19:56:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverInitiator -->
-        <test-method status="PASS" signature="amazoninTest()[pri:0, instance:testNGClasses.TestPrimary@2f7a2457]" name="amazoninTest" duration-ms="4672" started-at="2019-04-17T19:56:23Z" finished-at="2019-04-17T19:56:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amazoninTest -->
-        <test-method status="PASS" signature="facebookTest()[pri:0, instance:testNGClasses.TestPrimary@2f7a2457]" name="facebookTest" duration-ms="5694" started-at="2019-04-17T19:56:28Z" finished-at="2019-04-17T19:56:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- facebookTest -->
-        <test-method status="PASS" signature="googleTest()[pri:0, instance:testNGClasses.TestPrimary@2f7a2457]" name="googleTest" duration-ms="1177" started-at="2019-04-17T19:56:34Z" finished-at="2019-04-17T19:56:35Z">
+        <test-method status="PASS" signature="googleTest()[pri:49, instance:testNGClasses.TestPrimary@17550481]" name="googleTest" duration-ms="1856" started-at="2019-04-18T19:06:49Z" finished-at="2019-04-18T19:06:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTest -->
-        <test-method status="PASS" signature="driverQuit()[pri:0, instance:testNGClasses.TestPrimary@2f7a2457]" name="driverQuit" is-config="true" duration-ms="639" started-at="2019-04-17T19:56:52Z" finished-at="2019-04-17T19:56:53Z">
+        <test-method status="PASS" signature="amazoninTest()[pri:50, instance:testNGClasses.TestPrimary@17550481]" name="amazoninTest" duration-ms="4084" started-at="2019-04-18T19:06:51Z" finished-at="2019-04-18T19:06:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- driverQuit -->
-        <test-method status="PASS" signature="driverQuit()[pri:0, instance:testNGClasses.TestSecondary@566776ad]" name="driverQuit" is-config="true" duration-ms="625" started-at="2019-04-17T19:56:53Z" finished-at="2019-04-17T19:56:53Z">
+        </test-method> <!-- amazoninTest -->
+        <test-method status="PASS" signature="facebookTest()[pri:51, instance:testNGClasses.TestPrimary@17550481]" name="facebookTest" duration-ms="4437" started-at="2019-04-18T19:06:55Z" finished-at="2019-04-18T19:06:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- driverQuit -->
-        <test-method status="PASS" signature="driverQuit()[pri:0, instance:testNGClasses.TestTertiary@6108b2d7]" name="driverQuit" is-config="true" duration-ms="650" started-at="2019-04-17T19:56:53Z" finished-at="2019-04-17T19:56:54Z">
+        </test-method> <!-- facebookTest -->
+        <test-method status="PASS" signature="driverQuit()[pri:0, instance:testNGClasses.TestPrimary@17550481]" name="driverQuit" is-config="true" duration-ms="654" started-at="2019-04-18T19:06:59Z" finished-at="2019-04-18T19:07:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverQuit -->
       </class> <!-- testNGClasses.TestPrimary -->
+    </test> <!-- firstTest -->
+    <test name="secondTest" duration-ms="15951" started-at="2019-04-18T19:07:00Z" finished-at="2019-04-18T19:07:16Z">
       <class name="testNGClasses.TestSecondary">
-        <test-method status="PASS" signature="amazoninTest()[pri:0, instance:testNGClasses.TestSecondary@566776ad]" name="amazoninTest" duration-ms="3380" started-at="2019-04-17T19:56:35Z" finished-at="2019-04-17T19:56:38Z">
+        <test-method status="PASS" signature="driverInitiator()[pri:0, instance:testNGClasses.TestSecondary@3cbbc1e0]" name="driverInitiator" is-config="true" duration-ms="3916" started-at="2019-04-18T19:07:00Z" finished-at="2019-04-18T19:07:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazoninTest -->
-        <test-method status="PASS" signature="facebookTest()[pri:0, instance:testNGClasses.TestSecondary@566776ad]" name="facebookTest" duration-ms="4246" started-at="2019-04-17T19:56:38Z" finished-at="2019-04-17T19:56:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- facebookTest -->
-        <test-method status="PASS" signature="googleTest()[pri:0, instance:testNGClasses.TestSecondary@566776ad]" name="googleTest" duration-ms="1130" started-at="2019-04-17T19:56:42Z" finished-at="2019-04-17T19:56:44Z">
+        </test-method> <!-- driverInitiator -->
+        <test-method status="PASS" signature="googleTest()[pri:0, instance:testNGClasses.TestSecondary@3cbbc1e0]" name="googleTest" duration-ms="3640" started-at="2019-04-18T19:07:04Z" finished-at="2019-04-18T19:07:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="facebookTest()[pri:0, instance:testNGClasses.TestSecondary@3cbbc1e0]" name="facebookTest" duration-ms="3772" started-at="2019-04-18T19:07:07Z" depends-on-methods="testNGClasses.TestSecondary.googleTest" finished-at="2019-04-18T19:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookTest -->
+        <test-method status="PASS" signature="amazoninTest()[pri:0, instance:testNGClasses.TestSecondary@3cbbc1e0]" name="amazoninTest" duration-ms="3848" started-at="2019-04-18T19:07:11Z" depends-on-methods="testNGClasses.TestSecondary.facebookTest" finished-at="2019-04-18T19:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazoninTest -->
+        <test-method status="PASS" signature="driverQuit()[pri:0, instance:testNGClasses.TestSecondary@3cbbc1e0]" name="driverQuit" is-config="true" duration-ms="771" started-at="2019-04-18T19:07:15Z" finished-at="2019-04-18T19:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
       </class> <!-- testNGClasses.TestSecondary -->
-      <class name="testNGClasses.TestTertiary">
-        <test-method status="PASS" signature="amazoninTest()[pri:0, instance:testNGClasses.TestTertiary@6108b2d7]" name="amazoninTest" duration-ms="3824" started-at="2019-04-17T19:56:44Z" finished-at="2019-04-17T19:56:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amazoninTest -->
-        <test-method status="PASS" signature="facebookTest()[pri:0, instance:testNGClasses.TestTertiary@6108b2d7]" name="facebookTest" duration-ms="4146" started-at="2019-04-17T19:56:47Z" finished-at="2019-04-17T19:56:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- facebookTest -->
-        <test-method status="PASS" signature="googleTest()[pri:0, instance:testNGClasses.TestTertiary@6108b2d7]" name="googleTest" duration-ms="525" started-at="2019-04-17T19:56:52Z" finished-at="2019-04-17T19:56:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- googleTest -->
-      </class> <!-- testNGClasses.TestTertiary -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+    </test> <!-- secondTest -->
+  </suite> <!-- TestSuite1 -->
 </testng-results>

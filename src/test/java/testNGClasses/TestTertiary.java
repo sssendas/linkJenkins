@@ -5,8 +5,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import utilities.UIUtils;
@@ -16,7 +16,7 @@ public class TestTertiary
 	WebDriver driver = null;
 	WebDriverWait wait = null;
 	
-	@BeforeTest
+	@BeforeClass
 	public void driverInitiator()
 	{
 		driver = new UIUtils().driverInitiator();
@@ -24,7 +24,7 @@ public class TestTertiary
 		driver.manage().timeouts().pageLoadTimeout(100, TimeUnit.SECONDS);
 	}
 	
-	@Test
+	@Test(groups="firstGroup")
 	public void googleTest()
 	{
 		String expectedTitle = "Google";
@@ -33,7 +33,7 @@ public class TestTertiary
 		Assert.assertEquals(actulTitle, expectedTitle);
 	}
 	
-	@Test
+	@Test(groups="secondGroup")
 	public void facebookTest()
 	{
 		String expectedTitle = "Facebook – log in or sign up";
@@ -42,7 +42,7 @@ public class TestTertiary
 		Assert.assertEquals(actulTitle, expectedTitle);
 	}
 	
-	@Test
+	@Test(groups="firstGroup",dependsOnGroups="secondGroup")
 	public void amazoninTest()
 	{
 		String expectedTitle = "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in";
@@ -51,7 +51,7 @@ public class TestTertiary
 		Assert.assertEquals(actulTitle, expectedTitle);
 	}
 	
-	@AfterTest
+	@AfterClass
 	public void driverQuit()
 	{
 		driver.quit();

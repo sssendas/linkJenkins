@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "TestSuite1" thread-count="10" parallel="none">
+
+   <test name = "firstTest" >
+      <classes>
+      	 <class name = "testNGClasses.TestPrimary"/>
+      </classes>
+   </test>
+   
+   <test name = "secondTest">
+      <classes>
+      	 <class name = "testNGClasses.TestSecondary"/>
+      </classes>
+   </test>
+   
+   <!-- <test name = "thirdTest">
+      <classes>
+      	 <class name = "testNGClasses.TestTertiary"/>
+      </classes>
+   </test> -->
+   
+</suite>

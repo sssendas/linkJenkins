@@ -1,15 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite1]">
+  <test thread-count="2" name="firstTest(failed)" parallel="classes">
     <classes>
       <class name="testNGClasses.TestPrimary">
         <methods>
           <include name="driverInitiator"/>
           <include name="googleTest"/>
+          <include name="amazoninTest"/>
+          <include name="facebookTest"/>
           <include name="driverQuit"/>
         </methods>
       </class> <!-- testNGClasses.TestPrimary -->
+      <class name="testNGClasses.TestSecondary">
+        <methods>
+          <include name="driverInitiator"/>
+          <include name="googleTest"/>
+          <include name="facebookTest"/>
+          <include name="amazoninTest"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- testNGClasses.TestSecondary -->
+      <class name="testNGClasses.TestTertiary">
+        <methods>
+          <include name="amazoninTest"/>
+          <include name="driverQuit"/>
+          <include name="driverInitiator"/>
+          <include name="facebookTest"/>
+        </methods>
+      </class> <!-- testNGClasses.TestTertiary -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- firstTest(failed) -->
+  <test thread-count="2" name="secondTest(failed)">
+    <classes>
+      <class name="testNGClasses.TestSecondary">
+        <methods>
+          <include name="driverInitiator"/>
+          <include name="googleTest"/>
+          <include name="facebookTest"/>
+          <include name="amazoninTest"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- testNGClasses.TestSecondary -->
+    </classes>
+  </test> <!-- secondTest(failed) -->
+  <test thread-count="2" name="thirdTest(failed)">
+    <classes>
+      <class name="testNGClasses.TestTertiary">
+        <methods>
+          <include name="amazoninTest"/>
+          <include name="driverQuit"/>
+          <include name="driverInitiator"/>
+          <include name="facebookTest"/>
+          <include name="googleTest"/>
+        </methods>
+      </class> <!-- testNGClasses.TestTertiary -->
+    </classes>
+  </test> <!-- thirdTest(failed) -->
+</suite> <!-- Failed suite [TestSuite1] -->
