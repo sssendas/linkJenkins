@@ -16,6 +16,7 @@ public class TestPrimary
 	 WebDriver driver = null;
 	 WebDriverWait wait = null;
 	 
+//	just putting a comment
 	
 	@BeforeClass
 	public void driverInitiator()
