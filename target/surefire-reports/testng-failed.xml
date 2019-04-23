@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestSuite1]">
+  <listeners>
+    <listener class-name="utilities.MyAnnotationTransformer"/>
+  </listeners>
+  <test thread-count="10" verbose="0" name="failTestInTestAnnotation(failed)">
+    <classes>
+      <class name="testNGClasses.FailTestInTestAnnotation">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="googleTest"/>
+          <include name="driverInitiator"/>
+        </methods>
+      </class> <!-- testNGClasses.FailTestInTestAnnotation -->
+    </classes>
+  </test> <!-- failTestInTestAnnotation(failed) -->
+  <test thread-count="10" verbose="0" name="failTestGlobal(failed)">
+    <classes>
+      <class name="testNGClasses.FailTestGlobal">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="googleTest"/>
+          <include name="driverInitiator"/>
+        </methods>
+      </class> <!-- testNGClasses.FailTestGlobal -->
+    </classes>
+  </test> <!-- failTestGlobal(failed) -->
+</suite> <!-- Failed suite [TestSuite1] -->

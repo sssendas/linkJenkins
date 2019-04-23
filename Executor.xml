@@ -3,6 +3,10 @@
 
 <suite name = "TestSuite1" thread-count="10" parallel="none">
 
+<listeners>
+	<listener class-name="utilities.MyAnnotationTransformer"/>
+</listeners>
+
    <test name = "firstTest" >
       <classes>
       	 <class name = "testNGClasses.TestPrimary"/>
@@ -15,10 +19,22 @@
       </classes>
    </test>
    
-   <!-- <test name = "thirdTest">
+   <test name = "thirdTest">
       <classes>
       	 <class name = "testNGClasses.TestTertiary"/>
       </classes>
-   </test> -->
+   </test>
+   
+   <test name = "failTestInTestAnnotation">
+      <classes>
+      	 <class name = "testNGClasses.FailTestInTestAnnotation"/>
+      </classes>
+   </test>
+   
+   <test name = "failTestGlobal">
+      <classes>
+      	 <class name = "testNGClasses.FailTestGlobal"/>
+      </classes>
+   </test>
    
 </suite>

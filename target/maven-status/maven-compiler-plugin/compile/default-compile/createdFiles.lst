@@ -1,2 +1,4 @@
-utilities\PropertyReader.class
 utilities\UIUtils.class
+utilities\MyRetryAnalyzer.class
+utilities\PropertyReader.class
+utilities\MyAnnotationTransformer.class

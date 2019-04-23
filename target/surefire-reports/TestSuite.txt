@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.755 s - in TestSuite
+Tests run: 17, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 147.715 s <<< FAILURE! - in TestSuite
+googleTest(testNGClasses.FailTestInTestAnnotation)  Time elapsed: 0.535 s  <<< FAILURE!
+java.lang.AssertionError: expected [google] but found [Google]
+	at testNGClasses.FailTestInTestAnnotation.googleTest(FailTestInTestAnnotation.java:36)
+
+googleTest(testNGClasses.FailTestGlobal)  Time elapsed: 0.551 s  <<< FAILURE!
+java.lang.AssertionError: expected [google] but found [Google]
+	at testNGClasses.FailTestGlobal.googleTest(FailTestGlobal.java:36)
+
