@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="147.715" tests="17" errors="0" skipped="6" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="97.548" tests="17" errors="0" skipped="6" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\PRITHVI\AppData\Local\Temp\surefire1481103065635542128\surefirebooter279116766220510377.jar C:\Users\PRITHVI\AppData\Local\Temp\surefire1481103065635542128 2019-04-23T22-38-35_012-jvmRun1 surefire5421965844849352473tmp surefire_0548396920033826151tmp"/>
+    <property name="sun.java.command" value="C:\Users\PRITHVI\AppData\Local\Temp\surefire4401070354490347770\surefirebooter214731290187143213.jar C:\Users\PRITHVI\AppData\Local\Temp\surefire4401070354490347770 2019-04-23T23-00-22_431-jvmRun1 surefire1874034321259944673tmp surefire_03408411349478621619tmp"/>
     <property name="surefire.test.class.path" value="C:\DEV\eclipse-workspace\TestNGPractice\target\test-classes;C:\DEV\eclipse-workspace\TestNGPractice\target\classes;C:\Users\PRITHVI\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\PRITHVI\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\PRITHVI\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\PRITHVI\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\PRITHVI\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\PRITHVI\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\PRITHVI\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\PRITHVI\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\PRITHVI\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\PRITHVI\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\PRITHVI\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\PRITHVI\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\PRITHVI\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\PRITHVI\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\PRITHVI\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\PRITHVI\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\PRITHVI\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\PRITHVI\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\PRITHVI\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\PRITHVI\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\PRITHVI\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\PRITHVI\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\PRITHVI\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\PRITHVI"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\PRITHVI\AppData\Local\Temp\surefire1481103065635542128\surefirebooter279116766220510377.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\PRITHVI\AppData\Local\Temp\surefire4401070354490347770\surefirebooter214731290187143213.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_172\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,23 +60,23 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="googleTest" classname="testNGClasses.TestPrimary" time="8.984"/>
-  <testcase name="amazoninTest" classname="testNGClasses.TestPrimary" time="50.607"/>
-  <testcase name="facebookTest" classname="testNGClasses.TestPrimary" time="12.895"/>
-  <testcase name="googleTest" classname="testNGClasses.TestSecondary" time="4.253"/>
-  <testcase name="facebookTest" classname="testNGClasses.TestSecondary" time="6.245"/>
-  <testcase name="amazoninTest" classname="testNGClasses.TestSecondary" time="9.494"/>
-  <testcase name="facebookTest" classname="testNGClasses.TestTertiary" time="8.881"/>
-  <testcase name="googleTest" classname="testNGClasses.TestTertiary" time="2.461"/>
-  <testcase name="amazoninTest" classname="testNGClasses.TestTertiary" time="9.045"/>
+  <testcase name="googleTest" classname="testNGClasses.TestPrimary" time="3.477"/>
+  <testcase name="amazoninTest" classname="testNGClasses.TestPrimary" time="6.996"/>
+  <testcase name="facebookTest" classname="testNGClasses.TestPrimary" time="25.659"/>
+  <testcase name="googleTest" classname="testNGClasses.TestSecondary" time="2.88"/>
+  <testcase name="facebookTest" classname="testNGClasses.TestSecondary" time="2.952"/>
+  <testcase name="amazoninTest" classname="testNGClasses.TestSecondary" time="11.999"/>
+  <testcase name="facebookTest" classname="testNGClasses.TestTertiary" time="6.277"/>
+  <testcase name="googleTest" classname="testNGClasses.TestTertiary" time="0.67"/>
+  <testcase name="amazoninTest" classname="testNGClasses.TestTertiary" time="7.963"/>
   <testcase name="googleTest" classname="testNGClasses.FailTestInTestAnnotation" time="0">
     <skipped message="expected [google] but found [Google]"/>
     <system-out><![CDATA['FailTestInTestAnnotation.class': Expected title of webpage is: google
 'FailTestInTestAnnotation.class': Actual title of webpage is: Google
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 34909
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 19839
 Only local connections are allowed.
-Apr 23, 2019 10:40:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Apr 23, 2019 11:01:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
@@ -92,7 +92,7 @@ INFO: Detected dialect: OSS
 'FailTestInTestAnnotation.class': Actual title of webpage is: Google
 ]]></system-out>
   </testcase>
-  <testcase name="googleTest" classname="testNGClasses.FailTestInTestAnnotation" time="0.535">
+  <testcase name="googleTest" classname="testNGClasses.FailTestInTestAnnotation" time="0.382">
     <failure message="expected [google] but found [Google]" type="java.lang.AssertionError">java.lang.AssertionError: expected [google] but found [Google]
 	at testNGClasses.FailTestInTestAnnotation.googleTest(FailTestInTestAnnotation.java:36)
 </failure>
@@ -105,9 +105,9 @@ INFO: Detected dialect: OSS
     <system-out><![CDATA['FailTestGlobal.class': Expected title of webpage is: google
 'FailTestGlobal.class': Actual title of webpage is: Google
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 43223
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 7080
 Only local connections are allowed.
-Apr 23, 2019 10:40:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Apr 23, 2019 11:01:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
@@ -123,7 +123,7 @@ INFO: Detected dialect: OSS
 'FailTestGlobal.class': Actual title of webpage is: Google
 ]]></system-out>
   </testcase>
-  <testcase name="googleTest" classname="testNGClasses.FailTestGlobal" time="0.551">
+  <testcase name="googleTest" classname="testNGClasses.FailTestGlobal" time="0.372">
     <failure message="expected [google] but found [Google]" type="java.lang.AssertionError">java.lang.AssertionError: expected [google] but found [Google]
 	at testNGClasses.FailTestGlobal.googleTest(FailTestGlobal.java:36)
 </failure>

@@ -6,6 +6,17 @@
   </listeners>
   <test thread-count="10" name="failTestInTestAnnotation(failed)">
     <classes>
+      <class name="testNGClasses.FailTestInTestAnnotation">
+        <methods>
+          <include name="driverQuit"/>
+          <include name="googleTest"/>
+          <include name="driverInitiator"/>
+        </methods>
+      </class> <!-- testNGClasses.FailTestInTestAnnotation -->
+    </classes>
+  </test> <!-- failTestInTestAnnotation(failed) -->
+  <test thread-count="10" name="failTestGlobal(failed)">
+    <classes>
       <class name="testNGClasses.FailTestGlobal">
         <methods>
           <include name="driverQuit"/>
@@ -14,5 +25,17 @@
         </methods>
       </class> <!-- testNGClasses.FailTestGlobal -->
     </classes>
-  </test> <!-- failTestInTestAnnotation(failed) -->
+  </test> <!-- failTestGlobal(failed) -->
+  <test thread-count="10" name="failTestToTakeScreenShot(failed)">
+    <classes>
+      <class name="testNGClasses.TakeFailScreenShots">
+        <methods>
+          <include name="driverInitiators"/>
+          <include name="googleTest"/>
+          <include name="driverQuit"/>
+          <include name="facebookTest"/>
+        </methods>
+      </class> <!-- testNGClasses.TakeFailScreenShots -->
+    </classes>
+  </test> <!-- failTestToTakeScreenShot(failed) -->
 </suite> <!-- Failed suite [TestSuite1] -->

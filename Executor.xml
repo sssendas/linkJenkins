@@ -37,4 +37,10 @@
       </classes>
    </test>
    
+   <test name = "failTestToTakeScreenShot">
+      <classes>
+      	 <class name = "testNGClasses.TakeFailScreenShots"/>
+      </classes>
+   </test>
+   
 </suite>

@@ -7,11 +7,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
-public final class UIUtils
+public class UIUtils
 {
+	public static WebDriver driver = null;
 	public WebDriver driverInitiator()
 	{
-		WebDriver driver = null;
+		
 		
 		Properties prop = new PropertyReader().propertyReader();
 		

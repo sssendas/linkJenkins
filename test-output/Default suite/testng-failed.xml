@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGClasses.TestPrimary">
+      <class name="testNGClasses.TakeFailScreenShots">
         <methods>
-          <include name="driverInitiator"/>
+          <include name="driverInitiators"/>
           <include name="googleTest"/>
           <include name="driverQuit"/>
+          <include name="facebookTest"/>
         </methods>
-      </class> <!-- testNGClasses.TestPrimary -->
+      </class> <!-- testNGClasses.TakeFailScreenShots -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
