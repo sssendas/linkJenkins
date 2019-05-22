@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite1]">
+<suite thread-count="10" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [TestSuite1]">
   <listeners>
     <listener class-name="utilities.MyAnnotationTransformer"/>
   </listeners>
-  <test thread-count="10" name="failTestInTestAnnotation(failed)">
+  <test thread-count="10" verbose="5" name="failTestInTestAnnotation(failed)">
     <classes>
       <class name="testNGClasses.FailTestInTestAnnotation">
         <methods>
@@ -15,7 +15,7 @@
       </class> <!-- testNGClasses.FailTestInTestAnnotation -->
     </classes>
   </test> <!-- failTestInTestAnnotation(failed) -->
-  <test thread-count="10" name="failTestGlobal(failed)">
+  <test thread-count="10" verbose="5" name="failTestGlobal(failed)">
     <classes>
       <class name="testNGClasses.FailTestGlobal">
         <methods>
@@ -26,7 +26,7 @@
       </class> <!-- testNGClasses.FailTestGlobal -->
     </classes>
   </test> <!-- failTestGlobal(failed) -->
-  <test thread-count="10" name="failTestToTakeScreenShot(failed)">
+  <test thread-count="10" verbose="5" name="failTestToTakeScreenShot(failed)">
     <classes>
       <class name="testNGClasses.TakeFailScreenShots">
         <methods>
